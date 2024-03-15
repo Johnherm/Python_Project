@@ -8,7 +8,7 @@ else:
 
 
 answer = input("What is the your first work in this university? \n")      # GETTING GRADE 4
-if answer.lower() == "getting grade 4\n":
+if answer.lower() == "getting grade 4":
     score +=1
     print("You are correct \n")                                               
 elif answer.lower()  == "getting grade 4":
@@ -42,9 +42,39 @@ else:
     print("Incorrect \n")
 
 
-
-if score == 4:
-    print("Wow this is amazing! you get all the answer. So know what you want in this campus. Please keep going you will get it in short time later. Because you know what you want exactly\n")
-    print("You got "+ str((score/4)*100) + "%.")
+answer = input("What is the your fifth work in this university?\n ")   # TO SPEAK ENGLISH FLUENTLY
+if answer.lower() == "to speak English fluently":
+    score +=1
+    print("You are correct \n")
 else:
-    print("You got "+ str((score/4)*100) + "%. \n")
+    print("Incorrect \n")
+
+
+answer = input("What is the your sixth work in this university?\n ")   # TO BUILD MY MUSCLE
+if answer.lower() == "building my muscle":
+    score +=1
+    print("You are correct \n")
+else:
+    print("Incorrect \n")
+
+answer = input("What is the your seventh work in this university?\n ")   # TO BE BEST FOR FAMILY AND FRIENDS
+if answer.lower() == "to be best man for my friends and my family":
+    score +=1
+    print("You are correct \n")
+else:
+    print("Incorrect \n")
+
+
+answer = input("What is the your eighth work in this university?\n ")   # TO BE HIGH STATUS WITH FLIRTING TECHNIQUES
+if answer.lower() == "high status with flirting":
+    score +=1
+    print("You are correct \n")
+else:
+    print("Incorrect \n")
+
+
+if score == 8:
+    print("Wow this is amazing! you get all the answer. So know what you want in this campus. Please keep going you will get it in short time later. Because you know what you want exactly\n")
+    print("You got "+ str((score/8)*100) + "%.")
+else:
+    print("You got "+ str((score/8)*100) + "%. \n")

@@ -1,7 +1,9 @@
+# This is the simplest project for beginner and this is the starting point of your progress
+
 print("Welcome to my computer quiz!")
 playing = input("Do you want to play? \n")
 if playing != "yes":
-    print(" Okay! Have a good time! ")
+    print("Okay! Have a good time! ")
     quit()
 print("Okay! Let's play:) ")
 answer = input("What does CPU stand for? \n")
